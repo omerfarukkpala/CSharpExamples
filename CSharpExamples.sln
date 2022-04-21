@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpExamples", "CSharpExa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Giris", "Giris\Giris.csproj", "{752AE191-5430-49FB-8341-27111193CF2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConGiris", "ConGiris\ConGiris.csproj", "{87251AEE-DE73-4BA0-98CF-55C06B28B496}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConGiris", "ConGiris\ConGiris.csproj", "{87251AEE-DE73-4BA0-98CF-55C06B28B496}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConVeriTipleri", "ConVeriTipleri\ConVeriTipleri.csproj", "{162FCC60-589A-4CF1-BBF6-9FA0603C620D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{87251AEE-DE73-4BA0-98CF-55C06B28B496}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87251AEE-DE73-4BA0-98CF-55C06B28B496}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87251AEE-DE73-4BA0-98CF-55C06B28B496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{162FCC60-589A-4CF1-BBF6-9FA0603C620D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{162FCC60-589A-4CF1-BBF6-9FA0603C620D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{162FCC60-589A-4CF1-BBF6-9FA0603C620D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{162FCC60-589A-4CF1-BBF6-9FA0603C620D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -13,7 +13,8 @@ namespace ConGiris //namespacede bir kütüphanedir.
         static void Main(string[] args)
         {
             //Consoleda bip sesi çıkartır.
-            // Console.Beep(500,2000);
+            /* Console.Beep(500,2000);   birden fazla 
+             * satır yazmak için kullanılır */
 
             Console.WriteLine("merhaba dünya");//writeline bir alt satıra atar.
             Console.ReadLine();//consolun kapanmasını önler 

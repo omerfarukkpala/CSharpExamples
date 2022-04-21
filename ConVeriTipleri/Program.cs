@@ -6,7 +6,11 @@ namespace ConVeriTipleri
     {
         static void Main(string[] args)
         {
-            
+            /* 
+             * Veri Tipleri
+             
+             
+             */
         }
     }
 }

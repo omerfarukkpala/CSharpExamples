@@ -73,7 +73,8 @@ namespace ConTipDonusumleri
             toplam = s1 + s2;
 
             //toplam  console a yazdırılmalı
-
+            Console.Write("Sayıların toplamı : {0}--{1}--{2}  ", toplam, s1, s2);//string formatlı yazım
+            Console.ReadLine();//ekranın gitmemesi için
 
         }
     }

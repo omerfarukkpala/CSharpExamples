@@ -66,6 +66,12 @@ namespace ConTipDonusumleri
             string deger3 = Console.ReadLine();
 
 
+            int toplam = 0;
+            //Girilen sayılar toplanmalı 
+            int s1 = int.Parse(deger1);
+            int s2 = Convert.ToInt32(deger3);
+            toplam = s1 + s2;
+
 
         }
     }

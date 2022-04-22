@@ -72,6 +72,8 @@ namespace ConTipDonusumleri
             int s2 = Convert.ToInt32(deger3);
             toplam = s1 + s2;
 
+            //toplam  console a yazdırılmalı
+
 
         }
     }

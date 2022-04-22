@@ -45,6 +45,24 @@ namespace ConTipDonusumleri
             //Console.ReadLine();
 
 
+            //cast yöntemi yetersiz kalıyor
+            /*
+            string deger = "5";
+            int sayi2 = (int) deger;
+            */
+
+            //Parse Örneği
+            //string deger2 = "10";
+            //short sayi3 = short.Parse(deger2);
+
+            //convert örneği
+            //decimal sayi4 = 10.85m; //m yazınca decimal değer olmuş oluyor bu sayı veya decimal sayi4=(decimal)10.85 de yapabiliriz yani cast işlemi.
+            //int sayi5 = Convert.ToInt32(sayi4);//int 32 yapınca geriye int döner int 64 yapınca long döner int 16 yapınca geriye short döner.(sayı5 in değeri 10 olur.)
+
+
+
+
+
         }
     }
 }

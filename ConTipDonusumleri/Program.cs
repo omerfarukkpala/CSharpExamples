@@ -60,7 +60,10 @@ namespace ConTipDonusumleri
             //int sayi5 = Convert.ToInt32(sayi4);//int 32 yapınca geriye int döner int 64 yapınca long döner int 16 yapınca geriye short döner.(sayı5 in değeri 10 olur.)
 
             //Kullanıcının iki sayı girmesi sağlanmalı
-
+            Console.Write("1.sayıyı giriniz:");
+            string deger1 = Console.ReadLine();//kullanıcı entera basınca girmiş olduğu değeri atar.
+            Console.Write("2.Sayıyı giriniz");
+            string deger3 = Console.ReadLine();
 
 
 

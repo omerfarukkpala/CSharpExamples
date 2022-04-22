@@ -59,6 +59,7 @@ namespace ConTipDonusumleri
             //decimal sayi4 = 10.85m; //m yazınca decimal değer olmuş oluyor bu sayı veya decimal sayi4=(decimal)10.85 de yapabiliriz yani cast işlemi.
             //int sayi5 = Convert.ToInt32(sayi4);//int 32 yapınca geriye int döner int 64 yapınca long döner int 16 yapınca geriye short döner.(sayı5 in değeri 10 olur.)
 
+            //Kullanıcının iki sayı girmesi sağlanmalı
 
 
 

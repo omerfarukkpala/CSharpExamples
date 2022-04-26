@@ -57,6 +57,21 @@ namespace ConKararYapilari
             Console.Write("2.sayıyı giriiniz");
             int s2 = Convert.ToInt32(Console.ReadLine());
 
+
+            if (s1 > s2)
+            {
+                Console.Write("{0} sayısı {1} sayısından büyüktür", s1, s2);
+            }
+            else if (s2 > s1)
+            {
+                Console.Write("{0} sayısı {1} sayısından büyüktür", s2, s1);
+            }
+            else
+            {
+                Console.Write("sayılar eşittir");
+            }
+
+            Console.ReadLine();
         }
     }
 }

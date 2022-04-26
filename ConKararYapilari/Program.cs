@@ -48,6 +48,10 @@ namespace ConKararYapilari
             }
             Console.Clear();//consolu temizler
 
+
+            //Giirilen iki sayıdan hangisinin büyük hangisinin küçük olduğunu söyleyen uygulamayı yazınız
+
+
         }
     }
 }

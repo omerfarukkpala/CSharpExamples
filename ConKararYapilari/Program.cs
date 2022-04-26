@@ -12,9 +12,17 @@ namespace ConKararYapilari
              * Yazımı
              * if(koşul){
              * 
-             * }else if(koşul){
+             * }
+             * else if(koşul)
+             * {
              * 
-             * }else{
+             * }
+             * else if(koşul)
+             * {
+             * 
+             * }
+             * 
+             * else{
              * 
              * }
              * 

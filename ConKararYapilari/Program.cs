@@ -52,6 +52,11 @@ namespace ConKararYapilari
             //Giirilen iki sayıdan hangisinin büyük hangisinin küçük olduğunu söyleyen uygulamayı yazınız
 
 
+            Console.Write("1.sayıyı giriniz");
+            int s1 = Convert.ToInt32(Console.ReadLine());// Console.Readline string döndürüyor
+            Console.Write("2.sayıyı giriiniz");
+            int s2 = Convert.ToInt32(Console.ReadLine());
+
         }
     }
 }

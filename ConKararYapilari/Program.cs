@@ -37,6 +37,17 @@ namespace ConKararYapilari
             Console.Write("Parola:");
             string prl = Console.ReadLine();
 
+            if (ka == kullaniciAdi && prl == parola)
+            {
+                Console.Write("Hoşgeldin {0} ", ka);
+
+            }
+            else
+            {
+                Console.Write("Kullanıcı Adı veya Parola Yanlış");
+            }
+            Console.Clear();//consolu temizler
+
         }
     }
 }

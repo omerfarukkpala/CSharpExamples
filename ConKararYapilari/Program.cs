@@ -29,6 +29,9 @@ namespace ConKararYapilari
              * 
              */
 
+            string kullaniciAdi = "Admin";
+            string parola = "123";
+
         }
     }
 }

@@ -13,6 +13,22 @@ namespace ConWhileOrnek
             Console.Write("2.sayıyı giriniz");
             sayi2 = Convert.ToInt32(Console.ReadLine());
 
+            if (sayi1 > sayi2)
+            {
+                while (sayi2 < sayi1)
+                {
+                    if (sayi2 % 2 == 0)
+                    {
+                        ciftToplam += sayi2;
+                    }
+                    else
+                        tekToplam += sayi2;
+                    sayi2++;
+
+                }
+            }
+
+
         }
     }
 }

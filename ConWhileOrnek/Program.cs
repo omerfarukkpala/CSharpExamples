@@ -42,6 +42,16 @@ namespace ConWhileOrnek
                 }
             }
 
+            else
+            {
+                Console.Write("Sayılar eşittir");
+            }
+            Console.WriteLine("Çift sayıların toplamı {0}", ciftToplam);
+            Console.WriteLine("Tek sayıların toplamı {0}", tekToplam);
+
+
+            Console.ReadLine();
+
 
 
 

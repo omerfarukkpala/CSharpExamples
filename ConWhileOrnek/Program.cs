@@ -27,6 +27,22 @@ namespace ConWhileOrnek
 
                 }
             }
+            else if (sayi2 > sayi1)
+            {
+                while (sayi1 < sayi2)
+                {
+                    if (sayi1 % 2 == 0)
+                    {
+                        ciftToplam += sayi1;
+                    }
+                    else
+                        tekToplam += sayi1;
+                    sayi1++;
+
+                }
+            }
+
+
 
 
         }

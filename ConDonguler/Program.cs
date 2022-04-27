@@ -26,6 +26,34 @@ namespace ConDonguler
                 sayi--;
 
             }
+            Console.Clear();//console 'u temizler
+
+            int tekToplam = 0, ciftToplam = 0;
+
+            int deger = 0;
+
+
+            while (deger < 100)
+            {
+
+                if (deger % 2 == 0)
+                {
+                    ciftToplam += deger;
+
+                }
+                else
+                {
+                    tekToplam += deger;
+                }
+                deger++;
+            }
+            Console.WriteLine("Çift Sayıların toplamı {0}", ciftToplam);
+            Console.Write("Tek sayıların toplamı {0}", tekToplam);
+
+
+            Console.ReadLine();
+
+
         }
     }
 }

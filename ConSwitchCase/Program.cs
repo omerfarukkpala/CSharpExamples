@@ -34,6 +34,18 @@ namespace ConSwitchCase
             Console.Write("Mevsim giriniz:");
             string mevsim = Console.ReadLine();//readline string değer döndürür.
 
+            switch (mevsim)
+            {
+                case "Yaz": Console.Write("Haziran Temmuz Ağustos"); break;
+                case "Kış": Console.Write("Aralık Ocak Şubat"); break;
+                case "Sonbahar": Console.Write("Eylül -Ekim -Kasım "); break;
+                case "İlkbahar": Console.Write("Mart Nisan Mayıs"); break;
+
+                default: Console.Write("Girilen değer yanlıştır lütfen mevsim giriniz"); break;
+
+
+            }
+            Console.ReadLine();//yazı 
         }
     }
 }

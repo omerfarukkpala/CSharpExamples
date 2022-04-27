@@ -31,7 +31,8 @@ namespace ConSwitchCase
            * 
            */
             //kullanıcının girdiği mevsimde bulunan ayları listeleyen uygulamayı yazınız
-
+            Console.Write("Mevsim giriniz:");
+            string mevsim = Console.ReadLine();//readline string değer döndürür.
 
         }
     }

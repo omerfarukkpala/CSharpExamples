@@ -19,6 +19,13 @@ namespace ConDonguler
                * }
                *  
                */
+            int sayi = 100;
+            while (sayi > 0)
+            {
+                Console.WriteLine("Merhaba dünya--{0}", sayi);
+                sayi--;
+
+            }
         }
     }
 }

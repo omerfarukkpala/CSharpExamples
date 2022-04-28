@@ -17,7 +17,9 @@ namespace ConDoWhile
              * 
              * 
              */
-
+            //kullanıcı 0 girine kadar önceki sayıları topla
+            //int toplam = 0;
+            //int sayi = 0;
         }
     }
 }

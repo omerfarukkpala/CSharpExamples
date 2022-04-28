@@ -20,6 +20,14 @@ namespace ConDoWhile
             //kullanıcı 0 girine kadar önceki sayıları topla
             //int toplam = 0;
             //int sayi = 0;
+
+            //do
+            //{
+            //      Console.Write("Sayı Giriniz");
+            //      sayi = Convert.ToInt32(Console.ReadLine());
+            //      toplam += sayi;
+
+            //} while
         }
     }
 }

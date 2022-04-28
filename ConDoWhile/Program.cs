@@ -27,7 +27,9 @@ namespace ConDoWhile
             //      sayi = Convert.ToInt32(Console.ReadLine());
             //      toplam += sayi;
 
-            //} while
+            //} while (sayi!=0);
+            //Console.Write("Girilen sayıların toplamı: {0}", toplam);
+            //Console.ReadLine();
         }
     }
 }

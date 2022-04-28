@@ -6,7 +6,7 @@ namespace ConSayiTahminOyunu
     {
         static void Main(string[] args)
         {
-            
+            //sayı tahmin oyunu
         }
     }
 }

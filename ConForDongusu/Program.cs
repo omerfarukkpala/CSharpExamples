@@ -44,10 +44,10 @@ namespace ConForDongusu
                 int sonuc = 1;
                 for (int i = faktor; i > 0; i--)
                 {
-                    if (i == 3)
-                    {
-                        break;//direk döngüden çıkar (continue deseydik bu aşamayı geçip diğer aşamadan devam ederdi.)
-                    }
+                   // if (i == 3)
+                    //{
+                       // break;//direk döngüden çıkar (continue deseydik bu aşamayı geçip diğer aşamadan devam ederdi.)
+                   // }
                     Console.Write("{0}*", i);
                     sonuc *= i;
                 }

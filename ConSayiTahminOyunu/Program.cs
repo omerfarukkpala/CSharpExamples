@@ -40,6 +40,18 @@ namespace ConSayiTahminOyunu
 
             } while (girilen != tutulan && hak != 0);
 
+            if (girilen != tutulan && hak == 0)
+            {
+                Console.Write("Hakkınızı  bitmiştir,Tutulan Sayı {0}", tutulan);
+            }
+            else
+            {
+                Console.Write("tebrikler bildiniz");
+
+
+            }
+            Console.ReadLine();
+
 
 
         }

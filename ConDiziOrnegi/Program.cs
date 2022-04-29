@@ -38,6 +38,11 @@ namespace ConDiziOrnegi
                 }
             }
 
+            //6.adım:Kullanıcıya aramak istediği isimden listede kaç tane olduğu bilgisi verilmeli
+            Console.Write("{0} isminden listede {1} tane vardır", aranan, sayac);
+
+            Console.ReadLine();
+
 
 
         }

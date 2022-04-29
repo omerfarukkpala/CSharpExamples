@@ -20,6 +20,8 @@ namespace ConDiziler
              * Tanımlama Şekli:
              * string[] isimler=new string[10]
              */
+            string[] isimler = new string[10];//dizilerde referans tipli değişkenlerdir.
+            int[] sayilar = new int[5];
 
 
 

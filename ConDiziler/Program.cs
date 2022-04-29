@@ -23,6 +23,9 @@ namespace ConDiziler
             string[] isimler = new string[10];//dizilerde referans tipli değişkenlerdir.
             int[] sayilar = new int[5];
 
+            //Diziye değer atama yöntemi:
+            isimler[4] = "Faruk";
+            sayilar[0] = 4;
 
 
         }

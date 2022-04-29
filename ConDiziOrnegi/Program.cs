@@ -24,6 +24,19 @@ namespace ConDiziOrnegi
                 isimler[i] = Console.ReadLine();//diziye değerleri atadık.
 
             }
+            //4.adım:Kullanıcıdan liste içerisinde hangi ismi arayacağını sormak ve bu ismi almak.
+            Console.Write("Aramak istediğiniz isim:");
+            string aranan = Console.ReadLine();
+
+            //5.Adım:
+            int sayac = 0;
+            for (int i = 0; i < isimler.Length; i++)
+            {
+                if (isimler[i] == aranan)
+                {
+                    sayac++;
+                }
+            }
 
 
 

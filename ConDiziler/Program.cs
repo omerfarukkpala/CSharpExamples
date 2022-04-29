@@ -30,6 +30,16 @@ namespace ConDiziler
             //object initializer
             char[] karakterler = { 'A', '7', '?', 'B', 'C' };
 
+
+            //Dizilerin boyutu nasıl artılır?
+            Array.Resize(ref karakterler, 6);
+
+            //Dizilerin boyutunu öğrenme
+            int boyut = isimler.Length;
+
+            //Herhangi bir dizinin boyutunu var olan boyutundan 1 artırmak istersek ne yapmalıyız.
+            Array.Resize(ref isimler, isimler.Length + 1);
+
         }
     }
 }

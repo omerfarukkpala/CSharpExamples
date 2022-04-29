@@ -27,6 +27,8 @@ namespace ConDiziler
             isimler[4] = "Faruk";
             sayilar[0] = 4;
 
+            //object initializer
+            char[] karakterler = { 'A', '7', '?', 'B', 'C' };
 
         }
     }

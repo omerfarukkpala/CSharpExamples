@@ -34,6 +34,16 @@ namespace ConForeach
             int adet = Convert.ToInt32(Console.ReadLine());
             string[] isimler = new string[adet];
 
+
+            for (int i = 0; i < isimler.Length; i++)
+            {
+                Console.Write("{0}.ismi giriniz", i + 1);
+                isimler[i] = Console.ReadLine();
+            }
+
+            Console.Write("Aranacak isim");
+            string aranacak = Console.ReadLine();
+
         }
     }
 }

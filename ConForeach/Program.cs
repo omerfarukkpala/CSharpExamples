@@ -44,6 +44,18 @@ namespace ConForeach
             Console.Write("Aranacak isim");
             string aranacak = Console.ReadLine();
 
+            int sayac = 0;
+            foreach (string eleman in isimler)
+            {
+                if (eleman == aranacak)
+                {
+                    sayac++;
+
+                }
+            }
+            Console.Write("{0} isminden listede {1}  tane vardır", aranacak, sayac);
+            Console.ReadLine();
+
         }
     }
 }

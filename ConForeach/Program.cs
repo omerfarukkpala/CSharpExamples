@@ -28,9 +28,12 @@ namespace ConForeach
             foreach (char item in karakterler)
             {
                 //item = 'i';  değer ataması yapılmaz hata verir.
-
-
             }
+
+            Console.Write("Kaç isim girilecek:");
+            int adet = Convert.ToInt32(Console.ReadLine());
+            string[] isimler = new string[adet];
+
         }
     }
 }

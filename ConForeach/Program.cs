@@ -12,6 +12,16 @@ namespace ConForeach
              * 1-Sadece ileri gider
              * 2-Readonlydir.(Sadece okunabilir.Yani koleksiyon içerisindeki elemana değer ataması yapılamaz)
              * 3-koleksiyon yapısı foreach'in çalışması sırasında değiştirilemez.
+             * 
+             *  * 
+             * -Yazılışı
+             * foreach(elemanTipi degiskenIsmi in koleksiyon){
+             * 
+             * }
+             *
+             * Döngüler arasında en çok kullanacağımız döngü yapısıdır.
+             
+             * 
              * */
         }
     }

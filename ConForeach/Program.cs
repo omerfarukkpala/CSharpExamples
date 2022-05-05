@@ -23,6 +23,14 @@ namespace ConForeach
              
              * 
              * */
+
+            char[] karakterler = { 'A', '5', 'f' };
+            foreach (char item in karakterler)
+            {
+                //item = 'i';  değer ataması yapılmaz hata verir.
+
+
+            }
         }
     }
 }

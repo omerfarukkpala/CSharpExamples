@@ -51,6 +51,9 @@ namespace ConTakimOlusturma
             //Kural 1:bir oyuncu sadece bir takımda bulunabilir
             //kural 2:bir oyuncu bir takımda bir kez bulunabilir.
 
+            string[] aTakimi = new string[isimler.Length / 2];
+            string[] bTakimi = new string[isimler.Length / 2];
+
 
 
 

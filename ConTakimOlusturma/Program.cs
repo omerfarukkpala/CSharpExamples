@@ -54,6 +54,21 @@ namespace ConTakimOlusturma
             string[] aTakimi = new string[isimler.Length / 2];
             string[] bTakimi = new string[isimler.Length / 2];
 
+            Random rnd = new Random();
+            //a takımına  attık
+            for (int i = 0; i < isimler.Length / 2; i++)
+            {
+                string isim = isimler[rnd.Next(0, isimler.Length)];//0 ile isimler.length-1 arasında rastgele sayı üretir.
+                if (aTakimi.Contains(isim) == true)
+                {
+                    i--;
+                }
+                else
+                {
+                    aTakimi[i] = isim;
+                }
+
+            }
 
 
 

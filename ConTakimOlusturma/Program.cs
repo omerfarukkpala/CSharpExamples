@@ -31,6 +31,22 @@ namespace ConTakimOlusturma
             //2.adım:kullanıcının belirtmiş olduğu adet kadar oyuncu ismi girmesini sağlamak ve bu isimleri diziye atmak
             //ancak bir isim dizidee bir kez bulunabilmelidir.
 
+            for (int i = 0; i < isimler.Length; i++)
+            {
+                Console.WriteLine("{0}.ismi giriniz:", i + 1);
+                string isim = Console.ReadLine();
+                if (isimler.Contains(isim) == true)//isimler dizisinde isim içeriyorsa
+                {
+                    i--;//bi daha  işlem yapmak için 
+                }
+                else
+                {
+                    isimler[i] = isim;//diziye ismi atadık.
+                }
+
+            }
+
+
 
 
         }

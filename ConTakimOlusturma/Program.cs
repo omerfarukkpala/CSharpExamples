@@ -47,7 +47,8 @@ namespace ConTakimOlusturma
             }
             //3.adım :İki tane takım oluşturulmalı ve oyuncular eşit sayılarda rastgele bir şekilde takımlara dağıtılmalıdır.
 
-
+            //Kural 1:bir oyuncu sadece bir takımda bulunabilir
+            //kural 2:bir oyuncu bir takımda bir kez bulunabilir.
 
 
 

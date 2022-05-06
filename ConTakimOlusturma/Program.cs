@@ -70,6 +70,20 @@ namespace ConTakimOlusturma
 
             }
 
+            //b takımına attık.
+            for (int i = 0; i < isimler.Length / 2; i++)
+            {
+                string isim = isimler[rnd.Next(0, isimler.Length)];
+                if (aTakimi.Contains(isim) == false && bTakimi.Contains(isim) == false)
+                {
+                    bTakimi[i] = isim;
+                }
+                else
+                {
+                    i--;
+                }
+            }
+
 
 
         }

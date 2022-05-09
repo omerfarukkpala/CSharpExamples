@@ -84,6 +84,15 @@ namespace ConTakimOlusturma
                 }
             }
 
+            //4.adım:Kullanıcıya ATakımı ve Btakımı listesinin bilgisi verilmeli
+            Console.WriteLine("A takımı");
+            foreach (string a in aTakimi)
+            {
+                Console.WriteLine(a);
+
+            }
+
+
 
 
         }

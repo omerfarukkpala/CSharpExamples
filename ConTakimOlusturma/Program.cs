@@ -92,7 +92,10 @@ namespace ConTakimOlusturma
 
             }
             Console.WriteLine("B takımı");
-
+            foreach (string b in bTakimi)
+            {
+                Console.WriteLine(b);
+            }
 
 
 

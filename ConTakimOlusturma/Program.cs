@@ -97,7 +97,7 @@ namespace ConTakimOlusturma
                 Console.WriteLine(b);
             }
             Console.ReadLine();
-
+            // a takımı ve b takımı oluşturduk adım adım uygulamayı gerçekleştirdik işlem tammalandı. Son uygulamamızı gerçekleştirmiş olduk bu şekilde.
 
 
 

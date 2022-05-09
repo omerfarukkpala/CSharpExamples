@@ -91,6 +91,8 @@ namespace ConTakimOlusturma
                 Console.WriteLine(a);
 
             }
+            Console.WriteLine("B takımı");
+
 
 
 

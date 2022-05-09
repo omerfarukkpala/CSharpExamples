@@ -96,6 +96,7 @@ namespace ConTakimOlusturma
             {
                 Console.WriteLine(b);
             }
+            Console.ReadLine();
 
 
 
